@@ -1,0 +1,121 @@
+/* Whole document*/
+
+@import url('https://fonts.googleapis.com/css?family=Barriecito|Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family:  'Roboto Condensed', sans-serif;
+    color: rgb(231, 231, 231);
+    text-justify: auto;
+    font-size: 14px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+/* Header */
+
+.menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+nav ul li a {
+    text-decoration-line: none;
+    padding: 10px;
+    font-size: 1.5em;
+    color: rgb(68, 68, 126);
+    background-color: rgba(68, 68, 126, 0.2);
+    border-radius: 25% 10%;
+}
+
+.headline {
+    background-color: rgba(231, 231, 231, 0.5);
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.banner {
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    width: 100%;
+    height: 450px;
+    max-height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Tangerine', cursive, sans-serif;
+    font-style: italic;
+    color: rgb(46, 46, 117);
+    font-size: 4em;
+    letter-spacing: 3px;
+    text-align: center;
+    text-align-last: center;
+    padding: 10px;
+    width: 100%
+}
+
+h2{
+    font-size: 3em;
+    color: rgb(231, 231, 231);
+    letter-spacing: 2.5px;
+    font-weight: lighter;
+    text-align-last: center;
+    font-weight: bold;
+}
+
+/* Home */
+
+.category_home ul li img {
+    width: 100px;
+}
+
+.category_home ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.category_home ul li a {
+    text-decoration-line: none;
+    padding: 10px;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+/* Content */
+
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    text-align-last: center;
+    letter-spacing: 1.5;
+    font-size: 2em;
+    margin: 2em 0 1.1em 0;
+}
+
+hr {
+    color: rgb(231, 231, 231);
+    width: 12%;
+    margin: auto;
+    margin-bottom: 40px;
+}
