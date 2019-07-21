@@ -6,17 +6,17 @@
 * {
     box-sizing: border-box;
     font-family:  'Roboto Condensed', sans-serif;
-    color: rgb(231, 231, 231);
+    color: rgb(34, 34, 34);
     font-size: 14px;
     margin: 0px;
 }
 
 body {
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(245, 245, 245);
 }
 
 a:hover {
-    font-weight: bolder;
+    text-shadow: 1px 1px 2px rgb(46, 46, 117); 
 }
 
 /* Header */
@@ -26,6 +26,7 @@ a:hover {
     flex-flow: row wrap;
     justify-content: space-around;
     align-content: space-between;
+    align-items: center;
     margin-bottom: 10px;
 }
 
@@ -38,10 +39,8 @@ nav ul li a {
     text-decoration-line: none;
     padding: 10px;
     font-size: 1.5em;
-    color: rgb(68, 68, 126);
-    background-color: rgba(68, 68, 126, 0.2);
-    border-radius: 25% 10%;
-    display: inline-block;
+    color: rgb(34, 34, 34);
+    display: block;
 }
 
 .headline {
@@ -49,6 +48,17 @@ nav ul li a {
     width: 100%;
     position: fixed;
     top: 0;
+}
+
+.home{
+    font-family: 'Tangerine', cursive, sans-serif;
+    font-style: italic;
+    color: rgb(46, 46, 117);
+    font-size: 4em;
+    letter-spacing: 2px;
+    text-align: center;
+    text-align-last: center;
+    padding: 10px;
 }
 
 .banner {
@@ -65,20 +75,8 @@ nav ul li a {
 }
 
 h1{
-    font-family: 'Tangerine', cursive, sans-serif;
-    font-style: italic;
-    color: rgb(46, 46, 117);
-    font-size: 4em;
-    letter-spacing: 3px;
-    text-align: center;
-    text-align-last: center;
-    padding: 10px;
-    width: 100%
-}
-
-h2{
     font-size: 3em;
-    color: rgb(231, 231, 231);
+    color: rgb(245, 245, 245);
     letter-spacing: 2.5px;
     font-weight: lighter;
     text-align-last: center;
@@ -116,7 +114,7 @@ footer ul li a {
 
 /* Content */
 
-h3 {
+h2 {
     text-transform: uppercase;
     text-align: center;
     text-align-last: center;
@@ -126,7 +124,7 @@ h3 {
 }
 
 hr {
-    color: rgb(231, 231, 231);
+    color: rgb(245, 245, 245);
     width: 12%;
     margin: auto;
     margin-bottom: 40px;
@@ -155,10 +153,11 @@ p {
 }
 
 .category_home ul li a {
+    font-family: 'Tangerine', cursive, sans-serif;
     text-decoration-line: none;
     padding: 10px;
-    font-size: 1.5em;
-    color: whitesmoke;
+    font-size: 2.5em;
+    color: rgb(34, 34, 34);
     display: block;
     text-align: center;
 }
@@ -166,7 +165,7 @@ p {
 .last_news a {
     text-decoration-line: none;
 }
-.last_news a h4 {
+.last_news a h3 {
     text-transform: uppercase;
     text-align: center;
     text-align-last: center;
