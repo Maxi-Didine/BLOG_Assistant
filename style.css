@@ -163,6 +163,22 @@ p {
     text-align: center;
 }
 
+.last_news a {
+    text-decoration-line: none;
+}
+.last_news a h4 {
+    text-transform: uppercase;
+    text-align: center;
+    text-align-last: center;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    margin-top: 1.5em;
+}
+
+.last_news a p {
+    width: 40%;
+}
+
 /* about */
 
 .my_resume {
