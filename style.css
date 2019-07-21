@@ -7,13 +7,16 @@
     box-sizing: border-box;
     font-family:  'Roboto Condensed', sans-serif;
     color: rgb(231, 231, 231);
-    text-justify: auto;
     font-size: 14px;
     margin: 0px;
 }
 
 body {
     background-color: rgb(34, 34, 34);
+}
+
+a:hover {
+    font-weight: bolder;
 }
 
 /* Header */
@@ -38,6 +41,7 @@ nav ul li a {
     color: rgb(68, 68, 126);
     background-color: rgba(68, 68, 126, 0.2);
     border-radius: 25% 10%;
+    display: inline-block;
 }
 
 .headline {
@@ -81,6 +85,62 @@ h2{
     font-weight: bold;
 }
 
+/* Footer */
+
+footer ul li img {
+    width: 30px;
+}
+
+footer {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    list-style-type: none;
+    align-items: flex-end;
+}
+
+footer ul li a {
+    text-decoration-line: none;
+}
+
+.footer_name a {
+    font-family: 'Tangerine', cursive, sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+/* Content */
+
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    text-align-last: center;
+    letter-spacing: 1.5px;
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+hr {
+    color: rgb(231, 231, 231);
+    width: 12%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+p {
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 1.25em;
+}
+
 /* Home */
 
 .category_home ul li img {
@@ -90,9 +150,8 @@ h2{
 .category_home ul{
     list-style-type: none;
     display: flex;
-    flex-direction: row wrap;
+    flex-flow: row wrap;
     justify-content: space-around;
-    text-align: center;
 }
 
 .category_home ul li a {
@@ -100,22 +159,19 @@ h2{
     padding: 10px;
     font-size: 1.5em;
     color: whitesmoke;
-}
-
-/* Content */
-
-h3 {
-    text-transform: uppercase;
+    display: block;
     text-align: center;
-    text-align-last: center;
-    letter-spacing: 1.5;
-    font-size: 2em;
-    margin: 2em 0 1.1em 0;
 }
 
-hr {
-    color: rgb(231, 231, 231);
-    width: 12%;
-    margin: auto;
-    margin-bottom: 40px;
+/* about */
+
+.my_resume {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_smiley {
+    width: 15px;
 }
