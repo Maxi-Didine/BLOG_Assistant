@@ -7,7 +7,7 @@
     box-sizing: border-box;
     font-family:  'Roboto Condensed', sans-serif;
     color: rgb(34, 34, 34);
-    font-size: 14px;
+    font-size: 16px;
     margin: 0px;
 }
 
@@ -27,18 +27,15 @@ a:hover {
     justify-content: space-around;
     align-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 5px;
 }
 
 nav ul li a {
     text-decoration-line: none;
-    padding: 10px;
-    font-size: 1.5em;
+    font-size: 1.25em;
     color: rgb(34, 34, 34);
     display: block;
 }
@@ -54,7 +51,7 @@ nav ul li a {
     font-family: 'Tangerine', cursive, sans-serif;
     font-style: italic;
     color: rgb(46, 46, 117);
-    font-size: 4em;
+    font-size: 3.25em;
     letter-spacing: 2px;
     text-align: center;
     text-align-last: center;
@@ -75,7 +72,7 @@ nav ul li a {
 }
 
 h1{
-    font-size: 3em;
+    font-size: 2.5em;
     color: rgb(245, 245, 245);
     letter-spacing: 2.5px;
     font-weight: lighter;
@@ -136,7 +133,10 @@ p {
     margin: auto;
     text-align: justify;
     text-align-last: center;
-    font-size: 1.25em;
+}
+
+.smiley {
+    width: 15px;
 }
 
 /* Home */
@@ -178,15 +178,11 @@ p {
     width: 40%;
 }
 
-/* about */
+/* About */
 
 .my_resume {
     width: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.about_smiley {
-    width: 15px;
 }
