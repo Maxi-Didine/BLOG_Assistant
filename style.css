@@ -186,3 +186,26 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Desktop */
+
+.category_desktop ul li img {
+    width: 100px;
+}
+
+.category_desktop ul{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.category_desktop ul li a {
+    font-family: 'Tangerine', cursive, sans-serif;
+    text-decoration-line: none;
+    padding: 10px;
+    font-size: 2.5em;
+    color: rgb(34, 34, 34);
+    display: block;
+    text-align: center;
+}
