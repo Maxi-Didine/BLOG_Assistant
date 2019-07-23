@@ -167,9 +167,12 @@ td {
 }
 
 .signature {
-  color: grey;
-  font-style: italic;
-  margin-right: 10px;
+    color: grey;
+    font-style: italic;
+    display: inline-block;
+    text-align: right;
+    width: 90%;
+    margin-top: 2em;
 }
 
 /* Home */
