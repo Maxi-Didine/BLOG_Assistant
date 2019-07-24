@@ -176,6 +176,7 @@ td {
 }
 
 .columns2 {
+    margin: 1em;
     width: 80%;
     display: flex;
     flex-flow: row wrap;
