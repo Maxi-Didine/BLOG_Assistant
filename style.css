@@ -175,16 +175,6 @@ td {
     margin-top: 2em;
 }
 
-.columns2 {
-    margin: 1em;
-    width: 80%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-}
-
 /* Home */
 
 .category_home ul li img {
@@ -281,4 +271,14 @@ td {
     margin-right: auto;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
+}
+
+/* Word */
+
+.word_gif {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
