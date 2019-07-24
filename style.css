@@ -83,7 +83,7 @@ h1{
 /* Footer */
 
 footer ul li img {
-    width: 30px;
+    width: 20px;
 }
 
 footer {
@@ -173,6 +173,15 @@ td {
     text-align: right;
     width: 90%;
     margin-top: 2em;
+}
+
+.columns2 {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
 }
 
 /* Home */
